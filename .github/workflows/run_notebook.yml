@@ -27,7 +27,7 @@ jobs:
       run: |
         jupyter nbconvert \
           --to notebook \
-          --execute "AI교육_실습3(25_12_23).ipynb" \
+          --execute "AI교육_실습1(25_12_23).ipynb" \
           --output executed.ipynb
 
     - name: Upload executed notebook
